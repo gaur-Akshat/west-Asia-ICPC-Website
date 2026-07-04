@@ -59,9 +59,9 @@ export default function MainContent() {
             </span>{" "}
             and <span className="italic">Topi</span>) are eligible to
             participate in this contest. This contest will be held on{" "}
-            <span className="font-semibold">7-8 March 2026</span>. This year
+            <span className="font-semibold">20-21 March 2027</span>. This year
             Asia West Continent Championship will be a multi-site contest and
-            will be held at Mathura, Dhaka, Topi and Tehran.
+            will be held at Greater Noida, Dhaka, Topi and Tehran.
           </p>
         </div>
       </div>
@@ -157,10 +157,11 @@ export default function MainContent() {
           <span className="font-bold text-slate-900">
             Note (for teams participating in Indian Regional Sites):
           </span>{" "}
-          There will be a single Preliminary Online Contest for all three
+          There will be a single Preliminary Online Contest for all four
           Regional Sites Of India (i.e., Kanpur,{" "}
-          <span className="italic">Amritapuri</span>, and{" "}
-          <span className="italic">Chennai</span>). Each regional site will
+          <span className="italic">Amritapuri</span>,{" "}
+          <span className="italic">Chennai</span>, and{" "}
+          <span className="italic">Mathura</span>). Each regional site will
           prepare its own rank list based on the teams registered for that site
           from the Preliminary Online Contest rankings. Teams participating in
           multiple regional sites are requested to keep the same team members
@@ -171,7 +172,7 @@ export default function MainContent() {
       {/* Team Selection Rules */}
       <div className="mb-4 sm:mb-6 lg:mb-8 text-justify bg-white/80 backdrop-blur-md border border-amber-200 rounded-xl shadow-sm p-4 sm:p-6 lg:p-8">
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-indigo-700 tracking-tight mb-4 sm:mb-6">
-          Asia West Continent Championship: 7-8 March 2026
+          Asia West Continent Championship: 20-21 March 2027
         </h2>
         <div className="mb-4">
           <h3 className="text-lg font-bold text-slate-900 mb-4">

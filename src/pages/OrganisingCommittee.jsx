@@ -12,7 +12,7 @@ export default function OrganisingCommittee() {
             <div className="flex-1 min-w-0">
               <div className="mb-4 sm:mb-6 lg:mb-8">
                 <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-red-800 mb-4 sm:mb-6">
-                  Organising Committee
+                  Organizing Committee
                 </h1>
                 <div className="bg-white/80 backdrop-blur-md border border-amber-200 rounded-xl shadow-md overflow-hidden overflow-x-auto mb-6">
                   <table className="w-full min-w-[640px]">
@@ -112,18 +112,18 @@ export default function OrganisingCommittee() {
                             </div>
                             <div className="pt-3 border-t border-gray-200">
                               <div className="font-semibold text-blue-700">
-                                Mr. Ashok Kumar Singh
+                                Dr. Phalguni Gupta
                               </div>
                               <div className="text-gray-900 font-medium">
-                                Registrar, GLA University, Mathura
+                                Regional Contest Director
                               </div>
                               <div className="text-blue-600">
                                 <a
-                                  href="mailto:registrar@gla.ac.in"
+                                  href="mailto:pg@gla.ac.in"
                                   className="underline hover:text-blue-800 hover:font-semibold transition-all duration-200 cursor-pointer"
-                                  title="Send email to Mr. Ashok Kumar Singh"
+                                  title="Send email to Dr. Phalguni Gupta"
                                 >
-                                  registrar@gla.ac.in
+                                  pg@gla.ac.in
                                 </a>
                               </div>
                             </div>

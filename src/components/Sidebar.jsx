@@ -6,14 +6,14 @@ const sidebarLinks = [
   {
     title: "DIRECTOR'S REPORT",
     desc: "AWC 2025-2026",
-    href: "https://icpcasiawest.vercel.app/DIRECTOR_REPORT.pdf",
+    href: "/documents/DIRECTOR_REPORT.pdf",
     isNew: true,
     color: "indigo",
   },
   {
     title: "Programme Schedule",
     desc: "AWC 2025-2026",
-    href: "https://icpcasiawest.vercel.app/Anoun2026.pdf",
+    href: "/documents/Anoun2026.pdf",
     isNew: true,
     color: "indigo",
   },
@@ -27,7 +27,7 @@ const sidebarLinks = [
   {
     title: "Problem Set",
     desc: "AWC Problem Set 2025-2026",
-    href: "https://icpcasiawest.vercel.app/PROBLEM_SET26.pdf",
+    href: "/documents/PROBLEM_SET26.pdf",
     isNew: true,
     color: "indigo",
   },
@@ -41,14 +41,14 @@ const sidebarLinks = [
   {
     title: "Contest Rules",
     desc: "AWC 2025-2026",
-    href: "http://icpcasiawest.vercel.app/Asia-West_Rules.pdf",
+    href: "/documents/Asia-West_Rules.pdf",
     isNew: false,
     color: "emerald",
   },
   {
     title: "🏆 AWC Problem Set (2024-25)",
     desc: "",
-    href: "https://wc.indiaicpc.in/problem_set_2024_25.pdf",
+    href: "/documents/problem_set_2024_25.pdf",
     isNew: false,
     color: "slate",
   },

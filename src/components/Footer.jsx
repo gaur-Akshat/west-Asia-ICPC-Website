@@ -73,23 +73,6 @@ export default function Footer() {
         {/* Partner logos */}
         <div className="flex flex-col items-center gap-0 mb-4 px-4 border-t border-slate-200 pt-8 mt-8">
           <div className="text-center text-base sm:text-lg font-semibold text-slate-900 mb-2">
-            In Partnership with
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 w-full max-w-6xl items-stretch">
-            {partnerLogos.map((logo) => (
-              <div
-                key={logo.alt}
-                className="flex items-center justify-center overflow-hidden rounded-lg max-h-24 sm:max-h-32 lg:max-h-48 bg-white border border-slate-200"
-              >
-                <img
-                  alt={logo.alt}
-                  width="300"
-                  height="150"
-                  className="w-full h-full max-h-24 sm:max-h-32 lg:max-h-48 object-contain p-2 mix-blend-multiply"
-                  src={logo.src}
-                />
-              </div>
-            ))}
           </div>
         </div>
 

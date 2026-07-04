@@ -4,7 +4,7 @@ import jetbrainsLogo from "../../asset/jetbrains.webp";
 import janeStreetLogo from "../../asset/jane-4.webp";
 
 const cities = [
-  { name: "Mathura", country: "India" },
+  { name: "Greater Noida", country: "India" },
   { name: "Dhaka", country: "Bangladesh" },
   { name: "Topi", country: "Pakistan" },
   { name: "Tehran", country: "Iran" },
@@ -20,11 +20,11 @@ export default function Hero() {
       <div className="absolute -bottom-8 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-2xl opacity-30 animate-blob animation-delay-4000 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative">
         {/* City Names Row */}
-        <div className="flex justify-center items-center space-x-4 sm:space-x-8 lg:space-x-16 mb-4 sm:mb-6 lg:mb-8">
+        <div className="flex flex-wrap justify-center items-center gap-y-4 gap-x-4 sm:gap-x-8 lg:gap-x-12 mb-4 sm:mb-6 lg:mb-8">
           {cities.map((city, idx) => (
             <div
               key={city.name}
-              className="flex items-center space-x-4 sm:space-x-8 lg:space-x-16"
+              className="flex items-center space-x-4 sm:space-x-8 lg:space-x-12"
             >
               <div className="text-center">
                 <div className="text-slate-900 tracking-tight text-sm sm:text-lg lg:text-xl font-bold">
@@ -35,7 +35,7 @@ export default function Hero() {
                 </div>
               </div>
               {idx < cities.length - 1 && (
-                <div className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                <div className="hidden sm:block w-1.5 h-1.5 rounded-full bg-slate-300" />
               )}
             </div>
           ))}
@@ -90,8 +90,8 @@ export default function Hero() {
           {/* Title + Date */}
           <div className="flex-1 text-center min-w-0">
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-slate-900 tracking-tight mb-4 sm:mb-6 leading-tight">
-              <span className="block text-indigo-700 mb-2 text-lg sm:text-xl lg:text-2xl font-bold tracking-normal uppercase">
-                ICPC 2025-2026
+              <span className="block text-indigo-700 mb-2 text-4xl sm:text-5xl lg:text-7xl font-black tracking-normal uppercase">
+                ICPC
               </span>
               ASIA WEST CONTINENT <br className="hidden lg:block" />{" "}
               CHAMPIONSHIP
@@ -99,7 +99,7 @@ export default function Hero() {
             <div className="inline-flex items-center mt-2 lg:mt-6 group">
               <div className="text-indigo-600 px-3 sm:px-4 py-2">
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-black">
-                  7-8
+                  20-21
                 </div>
               </div>
               <div className="text-slate-800 px-3 sm:px-4 py-2 flex flex-col justify-center text-left">
@@ -107,7 +107,7 @@ export default function Hero() {
                   March
                 </div>
                 <div className="text-base sm:text-lg lg:text-xl text-indigo-700 font-medium leading-none mt-1">
-                  2026
+                  2027
                 </div>
               </div>
             </div>
