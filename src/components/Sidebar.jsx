@@ -5,57 +5,57 @@ import jane4Img from "../../asset/jane-4.webp";
 const sidebarLinks = [
   {
     title: "DIRECTOR'S REPORT",
-    desc: "AWC 2025-2026",
+    desc: "AWC 2026-2027",
     href: "/documents/DIRECTOR_REPORT.pdf",
     isNew: true,
     color: "indigo",
   },
   {
     title: "Programme Schedule",
-    desc: "AWC 2025-2026",
+    desc: "AWC 2026-2027",
     href: "/documents/Anoun2026.pdf",
     isNew: true,
     color: "indigo",
   },
   {
     title: "AWC Result",
-    desc: "Asia West Championship (2025-2026)",
-    href: "https://icpcasiawest.vercel.app/results?session=94014565-8795-4278-b03c-33187bea12ae",
+    desc: "Asia West Championship (2026-2027)",
+    href: "/results/awc-2026-27",
     isNew: false,
     color: "emerald",
   },
   {
     title: "Problem Set",
-    desc: "AWC Problem Set 2025-2026",
+    desc: "AWC Problem Set 2026-2027",
     href: "/documents/PROBLEM_SET26.pdf",
     isNew: true,
     color: "indigo",
   },
   {
-    title: "Selected Team for AWC 2025–26",
+    title: "Selected Team for AWC 2026-27",
     desc: "",
-    href: "https://icpcasiawest.vercel.app/teams?session=94014565-8795-4278-b03c-33187bea12ae",
+    href: "/teams/awc-2026-27",
     isNew: true,
     color: "indigo",
   },
   {
     title: "Contest Rules",
-    desc: "AWC 2025-2026",
+    desc: "AWC 2026-2027",
     href: "/documents/Asia-West_Rules.pdf",
     isNew: false,
     color: "emerald",
   },
   {
-    title: "🏆 AWC Problem Set (2024-25)",
+    title: "🏆 AWC Problem Set (2026-27)",
     desc: "",
     href: "/documents/problem_set_2024_25.pdf",
     isNew: false,
     color: "slate",
   },
   {
-    title: "List of Selected Teams for AWC 2024-25",
+    title: "List of Selected Teams for AWC 2026-27",
     desc: "",
-    href: "https://icpcasiawest.vercel.app/teams?session=1f1672dc-34bd-4bb1-8e58-a751ba2ff12c",
+    href: "/teams/awc-2026-27",
     isNew: false,
     color: "slate",
   },
@@ -129,8 +129,8 @@ export default function Sidebar() {
 
         <div className="bg-amber-50 p-4 border-l-4 border-l-amber-400">
           <h3 className="font-semibold text-amber-800 text-xs leading-relaxed">
-            Asia West Championship 2024-25 will be held at Mathura, Dhaka, Topi,
-            and Tehran on March 7-8, 2025.
+            Asia West Championship 2026-27 will be held at Greater Noida, Dhaka, Topi,
+            and Tehran on March 20-21, 2027.
           </h3>
         </div>
       </div>

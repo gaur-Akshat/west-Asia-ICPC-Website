@@ -16,10 +16,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/results/awc-2025-26" element={<ResultsAWC2526 />} />
-        <Route path="/results/awc-2024-25" element={<ResultsAWC2425 />} />
-        <Route path="/teams/awc-2025-26" element={<TeamsAWC2526 />} />
-        <Route path="/teams/awc-2024-25" element={<TeamsAWC2425 />} />
+        <Route path="/results/awc-2026-27" element={<ResultsAWC2526 />} />
+        <Route path="/teams/awc-2026-27" element={<TeamsAWC2526 />} />
         <Route path="/committee" element={<Committee />} />
         <Route path="/organising-committee" element={<OrganisingCommittee />} />
         <Route path="/about" element={<About />} />
